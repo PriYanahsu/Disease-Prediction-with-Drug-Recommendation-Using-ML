@@ -143,3 +143,5 @@ websocket-client==1.8.0
 Werkzeug==3.0.4
 widgetsnbextension==4.0.13
 wordcloud==1.9.3
+pip>=24.3.1
+
