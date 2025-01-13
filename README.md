@@ -70,16 +70,16 @@ After running the above command, Streamlit will start a local server and provide
 
 ## Screenshot
  ### 1. Login first
-![Screenshot (201)](https://github.com/user-attachments/assets/a77ab938-0ca0-4624-9db0-7e8565a7b843)
+![Screenshot (248)](https://github.com/user-attachments/assets/0c9bc3bd-d07b-47cc-ab6a-224f772fa626)
 
  ### 2. This section where you and put your parameter how you feel and whats the problem occur with your body in daily routine.
-![Screenshot (202)](https://github.com/user-attachments/assets/78742262-92a8-42bf-ad11-ac4d10b20eb6)
+![Screenshot (251)](https://github.com/user-attachments/assets/387c0550-8504-4a36-b92e-9e081d594e75)
 
  ### 3. After that you add paramtere and press the predict
- ![Screenshot (203)](https://github.com/user-attachments/assets/ad00087e-bec2-49f7-8f9f-623983cb61cc)
+ ![Screenshot (249)](https://github.com/user-attachments/assets/1384d942-e071-4179-88a2-efc9ee63cb3c)
 
  ### 4. Final output will be Disease and best five recommanded drugs
- ![Screenshot (204)](https://github.com/user-attachments/assets/abc4917f-b5d6-4a71-aba9-0734a68ccb38)
+![Screenshot (250)](https://github.com/user-attachments/assets/bec098ed-1f97-455c-acd9-0eaae82ec049)
 
 
 ## Additional Features
