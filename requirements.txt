@@ -67,6 +67,7 @@ matplotlib==3.9.2
 matplotlib-inline==0.1.7
 mdurl==0.1.2
 mistune==3.0.2
+narwhals==1.10.0
 nbclient==0.10.0
 nbconvert==7.16.4
 nbformat==5.10.4
@@ -77,6 +78,7 @@ notebook_shim==0.2.4
 numpy==2.1.0
 overrides==7.7.0
 packaging==24.1
+panadas==0.2
 pandas==2.2.2
 pandocfilters==1.5.1
 parso==0.8.4
@@ -96,8 +98,6 @@ python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
 pytz==2024.1
 pywin32==306
-pywin32==307
-pywin32==308
 pywinpty==2.0.13
 PyYAML==6.0.2
 pyzmq==26.2.0
