@@ -12,14 +12,20 @@
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to right, #7ec777, #7ec777);
+            background: url('/static/LoginIMG.jpg') no-repeat center center fixed;
+            /* Center image */
+            background-size: cover;
+            /* Ensure the image covers the entire viewport */
             display: flex;
             flex-direction: column;
             height: 100vh;
+            color: #333;
+            /* Default text color for better readability */
         }
 
         .navbar {
-            background: linear-gradient(to right,#333333 , #333333);
+            background: rgba(51, 51, 51, 0.8);
+            /* Add transparency to navbar */
             color: white;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
@@ -32,7 +38,8 @@
 
         .form-container {
             padding: 40px;
-            background: #ffffff;
+            background: rgba(255, 255, 255, 0.9);
+            /* Add transparency to form background */
             border-radius: 15px;
             box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
             margin-top: 50px;
@@ -62,7 +69,7 @@
         .input-field:focus {
             outline: none;
             border-color: #43a047;
-            box-shadow: 0 0 8px #43a047(56, 204, 242, 0.6);
+            box-shadow: 0 0 8px rgba(67, 160, 71, 0.6);
         }
 
         textarea.input-field {
@@ -153,13 +160,17 @@
                     <option value="Other">Other</option>
                 </select>
                 <br>
-                <input type="number" id="height" name="height" class="input-field" placeholder="Height in cm..." required>
+                <input type="number" id="height" name="height" class="input-field" placeholder="Height in cm..."
+                    required>
                 <br>
-                <input type="number" id="weight" name="weight" class="input-field" placeholder="Weight in kg..." required>
+                <input type="number" id="weight" name="weight" class="input-field" placeholder="Weight in kg..."
+                    required>
                 <br>
-                <input type="text" id="location" name="location" class="input-field" placeholder="Enter your location..." required>
+                <input type="text" id="location" name="location" class="input-field"
+                    placeholder="Enter your location..." required>
                 <br>
-                <textarea id="msg" name="rawtext" class="input-field" placeholder="Describe problems during any activity..." required rows="4"></textarea>
+                <textarea id="msg" name="rawtext" class="input-field"
+                    placeholder="Describe problems during any activity..." required rows="4"></textarea>
                 <br>
                 <input type="submit" id="submit" value="Predict">
             </form>
